@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header {
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 10000px;
+  max-width: 100%;
+}
+nav {
+  padding: 0.5rem 0;
+}
+.pre-nav {
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pre-nav i {
+  color: red;
+}
+.pre-nav h3 span {
+  color: red;
+}
+.pre-nav h3 {
+  margin-top: 2px;
+}
+.navbar {
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+}
+
+.home-section {
+  background-image: url('img/home-bcg.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  position: relative;
+}
+.main-home {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 40px;
+  background-color: brown;
+  width: 300px;
+  border-radius: 2px;
+}
+.main-home h3,
+.main-home p {
+  color: white;
+  margin: 20px 20px;
+}
+.home-btn {
+  margin: 20px;
+  padding: 8px;
+  background: black;
+  color: white;
+  border: none;
+}
+.home-btn:hover {
+  color: black;
+  background: white;
+}
+
+/*about section*/
+.about-section {
+  margin-top: 60px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.main-about {
+  width: 40%;
+}
+.pix-about {
+  background-image: url('img/about-bcg.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  width: 40%;
+}
+/*contact section*/
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+.contact-form,
+.contact-text {
+  width: 40%;
+  margin-bottom: 100px;
+}
+hr {
+  margin-top: 30px;
+}
+
+.user-details {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
